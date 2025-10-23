@@ -1,4 +1,4 @@
-# RetailAnalytics — Retail analytics,statistics, customer segmentation
+# RetailAnalytics — Retail analytics, statistics, customer segmentation
 
 Учебный проект, реализующий базу данных, аналитическую систему для розничной сети, простую ролевую модель PostgreSQL: 
 - создание и наполнение базы данных, импорт данных CSV;
@@ -8,7 +8,7 @@
 - ролевая модель PostgreSQL(GRANT);
 
 ## Технологии
-PostgreSQL 14+, PL/pgSQL, SQL views, оконные функции, агрегаты, CTE.
+PostgreSQL 17, SQL (DDL/DML), PL/pgSQL(процедуры для ETL CSV данных), оконные функции, агрегатные функции, VIEWS, CTE, ролевое управление доступом(GRANT).
 
 ## Структура репозитория
 - `database/` — исходные CSV-файлы для импорта.
